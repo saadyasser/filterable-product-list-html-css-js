@@ -1,0 +1,13 @@
+.container {
+    max-width: 90%;
+    margin-inline: auto;
+}
+.products-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid red;
+}
+
+.product {
+    border: 1px solid green
+}
