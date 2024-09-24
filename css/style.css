@@ -6,12 +6,30 @@ img {
     max-width: 90%;
     margin-inline: auto;
 }
+header {
+    margin-bottom: 2rem;
+}
+.search-section {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.search-section label {
+    margin-right: .5rem;
+}
+.search-section input {
+    padding: .5rem;
+    border-radius: .5rem;
+    outline: 0;
+    border: 1px solid #858585
+}
+.search-input input {
+    flex-grow: 1;
+}
 .products-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid red;
+    gap: 2rem 1rem;
+  
 }
 
-article {
-    border: 1px solid green
-}

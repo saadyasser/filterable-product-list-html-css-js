@@ -7,12 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-    <main>
-        <section>
-            <div id="products-list" class="products-list container">
+    <div class="container">
+
+        <header>
+            <div class="search-section flex">
+                <label for="search-input">Search For Product:</label>
+                <input  type="text" name="search-input" id="search-input">
             </div>
-        </section>
-    </main>
+        </header>
+        
+        <main>
+            <section>
+                <h1>Main Products</h1>
+                <div id="products-list" class="products-list">
+                </div>
+            </section>
+        </main>
+    </div>
 
     <!-- <script  src="./data/products/index.js"></script> -->
     <script src="./script.js"></script>
