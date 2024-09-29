@@ -1,35 +1,90 @@
-img {
+body {
+    font-family: "Roboto", sans-serif;
+}
 
+h1 {
+    font-family: "Prompt", sans-serif;
+}
+
+img {
     max-width: 100%;
 }
 .container {
     max-width: 90%;
     margin-inline: auto;
 }
-header {
+.mb-2 {
     margin-bottom: 2rem;
 }
-.search-section {
-    width: 60%;
+.layout {
+    margin-top: 5rem;
     display: flex;
-    align-items: center;
+    gap: 4rem;
 }
-.search-section label {
-    margin-right: .5rem;
+
+.layout aside {
+    padding-top: 2.5rem;
 }
-.search-section input {
+
+ label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.search-wrapper {
+    display: flex;
+    gap: .5rem;
+}
+ input {
     padding: .5rem;
     border-radius: .5rem;
     outline: 0;
-    border: 1px solid #858585
+    border: 1px solid #ccc
 }
 .search-input input {
     flex-grow: 1;
 }
+button {
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: .5rem;
+    outline: 0;
+    border: 1px solid #ccc
+}
+
+select {
+    width: 100%;
+    padding: .5rem;
+    border-radius: .5rem;
+    outline: 0;
+    border: 1px solid #ccc;
+}
 .products-list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem 1rem;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    gap: 3rem 2rem;
   
+}
+/* article {
+    border: 1px solid #ccc;
+} */
+article img {
+   display: block;
+   width: 92%;
+   border-radius: 5px;
+   margin-inline: auto;
+   /* padding-inline: 5px; */
+}
+
+article h2 {
+    max-height: 2ch; 
+    overflow-y: hidden;
+    font-size: 1rem;
+}
+article span {
+    font-size: .8rem;
+    background-color: rgb(8, 167, 159);
+    padding: 5px 10px;
+    border-radius: 15px;
 }
 
